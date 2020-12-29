@@ -1,0 +1,5 @@
+{
+  "servers": [],
+  "version": "2020.11.0",
+  "image": "homeassistant/amd64-hassio-dns"
+}

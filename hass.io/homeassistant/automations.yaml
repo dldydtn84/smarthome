@@ -1,0 +1,13 @@
+- id: '1591710453295'
+  alias: 새로운 자동화
+  description: ''
+  trigger:
+  - payload: enter
+    platform: mqtt
+    topic: location/phone1
+  condition: []
+  action:
+  - device_id: 50244958cacd47cdb353fc7ef5d8ef03
+    domain: switch
+    entity_id: switch.doorlock
+    type: turn_on

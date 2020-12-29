@@ -1,0 +1,19 @@
+{
+  "image": {
+    "homeassistant": "homeassistant/{machine}-homeassistant",
+    "supervisor": "homeassistant/{arch}-hassio-supervisor",
+    "audio": "homeassistant/{arch}-hassio-audio",
+    "cli": "homeassistant/{arch}-hassio-cli",
+    "dns": "homeassistant/{arch}-hassio-dns",
+    "multicast": "homeassistant/{arch}-hassio-multicast",
+    "observer": "homeassistant/{arch}-hassio-observer"
+  },
+  "channel": "stable",
+  "supervisor": "2020.12.7",
+  "homeassistant": "2020.12.1",
+  "cli": "2020.11.1",
+  "dns": "2020.11.0",
+  "audio": "17",
+  "multicast": "3",
+  "observer": "2020.10.1"
+}

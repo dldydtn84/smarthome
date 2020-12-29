@@ -1,0 +1,5 @@
+{
+  "version": "2020.11.1",
+  "image": "homeassistant/amd64-hassio-cli",
+  "access_token": "ccbf0521b8c1b857fce816ef889493327900d233d0c6fadea45391a8d9354fcb735f4eb51221dacc9e43ada3d177696b19bf63ab1b2526dc"
+}

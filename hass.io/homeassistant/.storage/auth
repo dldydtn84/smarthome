@@ -1,0 +1,415 @@
+{
+    "data": {
+        "credentials": [
+            {
+                "auth_provider_id": null,
+                "auth_provider_type": "homeassistant",
+                "data": {
+                    "username": "qjsro3975"
+                },
+                "id": "7b41f93476f748ddb79b8bb01fd4a50e",
+                "user_id": "a3257ab1edbc427186cdc26bb99503e4"
+            }
+        ],
+        "groups": [
+            {
+                "id": "system-admin",
+                "name": "Administrators"
+            },
+            {
+                "id": "system-users",
+                "name": "Users"
+            },
+            {
+                "id": "system-read-only",
+                "name": "Read Only"
+            }
+        ],
+        "refresh_tokens": [
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": null,
+                "client_name": null,
+                "created_at": "2020-06-20T14:54:26.791588+00:00",
+                "id": "4d1e19414a494c15b1fb632407bed951",
+                "jwt_key": "8b43658cab7e668a284df72a77086687a6b117df75bad00e5a6550c40d8d3202bc18125b7c9963fff60df1730c6e1f15227295622e60d65e26d8b5e72c9f5273",
+                "last_used_at": "2020-12-24T14:30:26.809720+00:00",
+                "last_used_ip": "172.30.32.2",
+                "token": "fabfa842c5e6a0b6e8a66fb9d58dd63f60dae24db06abc0432a8a65f357f42013723526202a4e1d3a6bbb774f0b6e3dda9bbc43b1d08880c7085a16acbfabbf3",
+                "token_type": "system",
+                "user_id": "5ee52bf402f24927afea8cba7efb5c3e"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "http://qjsro3975.synology.me:8123/",
+                "client_name": null,
+                "created_at": "2020-06-20T15:00:24.673486+00:00",
+                "id": "989606300f6547a2b983e775c963ba05",
+                "jwt_key": "fff1c1d437d1755524676345a8d15c28965b5c18c13f514f7f4f97378a713172ab0855f6dc2e50b03b1028c0004e85d342eeb20e56f58e3b0589040b1292269b",
+                "last_used_at": "2020-06-20T15:00:24.673690+00:00",
+                "last_used_ip": "192.168.1.1",
+                "token": "ad3cfb82ad9a17c473a8ca608172cee0b4b059915090189a2b9d95dc7b301dd26ae8a521268a9bc001566a6d480bd6cdee7b4c2fd59bba9086f3fc63114704c7",
+                "token_type": "normal",
+                "user_id": "a3257ab1edbc427186cdc26bb99503e4"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "http://qjsro3975.synology.me:8123/",
+                "client_name": null,
+                "created_at": "2020-06-21T09:14:41.449962+00:00",
+                "id": "b912cd6031f24e628a0c53a73517b0a1",
+                "jwt_key": "fc43c3752afd5ede44572f3f3b91cac9635c67670aaa78e2656629f3db02ce33e48e102ce0d283df0de8210a9f5d71d92783f68797a450652187c764b6fd6b7a",
+                "last_used_at": "2020-06-21T09:14:41.450159+00:00",
+                "last_used_ip": "192.168.1.1",
+                "token": "d405e591fc46791a7bdf5fe7c1e0add332c8b74211524395a19acb5a56cb66d1497fa645def59f3a0fe0dbdc43d0289c9f9c8010dfbc41c7a4ad723fb148066e",
+                "token_type": "normal",
+                "user_id": "a3257ab1edbc427186cdc26bb99503e4"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "http://qjsro3975.synology.me:8123/",
+                "client_name": null,
+                "created_at": "2020-06-21T12:29:14.330848+00:00",
+                "id": "8c8cc0b7fea049a6a7e456f4342fe0c3",
+                "jwt_key": "22f6484f9ee2cd5c715d5b4e7b663885bd1c51b052efff3b204482bf3b0bcc94569f98dc583530797b732c3a1a54fbba78a924d2fa40b459ed3db03c5ff40763",
+                "last_used_at": "2020-08-28T01:50:26.110543+00:00",
+                "last_used_ip": "192.168.1.1",
+                "token": "70d9e11ea4200a1379f9779c5cc892be14723c36e412f6117d59761bea74eb44a248cc6ad1a68cde47559ecfb0e83f00a8abe595ca9583fb193406e88f3b47cd",
+                "token_type": "normal",
+                "user_id": "a3257ab1edbc427186cdc26bb99503e4"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://home-assistant.io/android",
+                "client_name": null,
+                "created_at": "2020-06-23T14:41:55.235712+00:00",
+                "id": "555b7075478446469ee319417fb0e94a",
+                "jwt_key": "9434fe1a025700e99f6c8ec044a1e5452c0a053c38d6b51acc5e242ca3404d47fd8cd9772a8f6078d91104b3d3b18de6176a2c57bb23b86e814c2eb06cd39305",
+                "last_used_at": "2020-08-11T10:42:01.664684+00:00",
+                "last_used_ip": "127.0.0.1",
+                "token": "ebfce766d44b6fb8da69bb47e199828be639614fdadbda167b92db6408c9f5f4c510bca8f0cef39f96239ef01078ae9c8d040aee3553f28967ce84e50031506d",
+                "token_type": "normal",
+                "user_id": "a3257ab1edbc427186cdc26bb99503e4"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://yongsoo.duckdns.org/",
+                "client_name": null,
+                "created_at": "2020-06-24T03:58:23.130828+00:00",
+                "id": "6f69f7ceaa404fa9a544aa8e1dd3a45a",
+                "jwt_key": "6e5311f0e69db46fc4574d02983dc69be6f922aabd07c394e0bec1dbdf92c673032e3dc78de37a43f22858c4bf3eb820801eeb42a5396b3d7941a09a9c6a9264",
+                "last_used_at": "2020-06-30T01:50:51.471530+00:00",
+                "last_used_ip": "127.0.0.1",
+                "token": "c81813e1c76b143585a2bf124a97b32f85483b808856ec21abe1a6566348c0162c9715c8ff682c3a4bd99a4e1ffd6a31a4aad7c9f24ba1d04134dba668d3f540",
+                "token_type": "normal",
+                "user_id": "a3257ab1edbc427186cdc26bb99503e4"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "http://yongsoo.duckdns.org:8123/",
+                "client_name": null,
+                "created_at": "2020-06-27T06:09:15.015177+00:00",
+                "id": "91d6223cf19d4e8294f6299d2aea7397",
+                "jwt_key": "6fad80610aa2d44d41a318600017b7708d88d5f081541bd5de9ac3065fda838a7be12ec7810ba69abc3faf672ff9166ea6787b4b850368f5423fc2618bdb7d24",
+                "last_used_at": "2020-06-27T06:09:15.015370+00:00",
+                "last_used_ip": "223.62.216.153",
+                "token": "372f1c2b22bc06da0d9a32e6ed704554773d1cbb6d00ec2fb6d61890af555f859e9dfaaed31300d632a820c7a2828b796adaae3b92d3d49ad647e80483aa98d9",
+                "token_type": "normal",
+                "user_id": "a3257ab1edbc427186cdc26bb99503e4"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://yongsoo.duckdns.org/",
+                "client_name": null,
+                "created_at": "2020-06-28T13:58:25.907183+00:00",
+                "id": "bc82c1b4fc124f4aa0f4162609c2601b",
+                "jwt_key": "96d8266bc80045c20cc564e840c04da885b304689e75a6d6c4812f3d3ecaf47dff89370bda8d1fc99a817841278a87023414cd9bec71fc05d2bf2bec5e7955ff",
+                "last_used_at": "2020-06-28T13:58:25.907380+00:00",
+                "last_used_ip": "127.0.0.1",
+                "token": "0de0958c6374faedf6d3758189b154c48ea51459b07bfa803f6df142ee1712961e58b5c80b38ef77386f559642d78331fad1816ebd6163bee5064607c0794109",
+                "token_type": "normal",
+                "user_id": "a3257ab1edbc427186cdc26bb99503e4"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "http://yongsoo.duckdns.org:8123/",
+                "client_name": null,
+                "created_at": "2020-06-29T11:12:26.698244+00:00",
+                "id": "e308900f3de7490c8652afd27437d76d",
+                "jwt_key": "faf8eea921cdda2e2c4309c294eb3bd7d1edbf28309807c1e76c6c1b94fcb63473d9f0345cc6c08b7fa0d3b152cc568ea3db675f2b85729643740e8df8b35bd2",
+                "last_used_at": "2020-06-29T11:53:00.502748+00:00",
+                "last_used_ip": "192.168.1.1",
+                "token": "c9c74ebed3a97e74c00a0d324c968a8a745d9631362fabbd9af368ea038c2e55b45efc610b2d123296a2fb016a677f958b55037ab3e0d112a2e666a59c7bc067",
+                "token_type": "normal",
+                "user_id": "a3257ab1edbc427186cdc26bb99503e4"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "http://192.168.1.2:8123/",
+                "client_name": null,
+                "created_at": "2020-06-29T14:39:14.912151+00:00",
+                "id": "02e9438a01194a3f8984d35efbcab6a5",
+                "jwt_key": "28bdc960feb4f196846c168e13a0e0fdda901763e84ea9d14d3fcf299052325cc5d70ff0b51c812905a2b579dcddbe09e4928b317415e1f61b3d90a7ef810b41",
+                "last_used_at": "2020-08-01T01:25:23.952803+00:00",
+                "last_used_ip": "192.168.1.59",
+                "token": "e8bdad5881b39462163de1c2bfe5d4fe83197847ac2a7ccb81784bb2fdfdd899b24af29555d8b9b567e16222507db89ab72d359c590bab856b3c23fd2a450e49",
+                "token_type": "normal",
+                "user_id": "a3257ab1edbc427186cdc26bb99503e4"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://yongsoo.duckdns.org/",
+                "client_name": null,
+                "created_at": "2020-07-01T10:59:16.976152+00:00",
+                "id": "ede87cd7a70945718fa7718d7969b91f",
+                "jwt_key": "14dbac41e49ded2a166fc014faaf247cb34dbbfd3fe1e368af5c2dbc95ef23e35b51d6e61d58e80ba49fd9bca3871082add074656967077f0f214438b26358c6",
+                "last_used_at": "2020-07-01T10:59:16.976347+00:00",
+                "last_used_ip": "127.0.0.1",
+                "token": "b85fd1b8bce91b1df79accdd6c7ac9798356d227a24cd4dd7ef1127f94283c97530c315755b989042adad138f522d825840ba883d2ab7d470c53b153437825c5",
+                "token_type": "normal",
+                "user_id": "a3257ab1edbc427186cdc26bb99503e4"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://yongsoo.duckdns.org/",
+                "client_name": null,
+                "created_at": "2020-07-01T12:51:27.402704+00:00",
+                "id": "2e322b40f16947d1962442c66b432a71",
+                "jwt_key": "a749498a1926400566c95ca257f5515e22fd8e18381c1c13e622b55b1c5d95d85dda7eed51d130faf699f319be6332b120fb7f3acc3c015b2b75a0ffccfb1e9b",
+                "last_used_at": "2020-07-01T12:51:27.402946+00:00",
+                "last_used_ip": "127.0.0.1",
+                "token": "9de7884bebe1efbf00ac5196d5b752f88eabd4531950a6f6f56faa0323121206ee37e6577c36c5a6f4acb2d0a5281963de6b3ee4a37ec77b44fc43d368a61b83",
+                "token_type": "normal",
+                "user_id": "a3257ab1edbc427186cdc26bb99503e4"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://yongsoo.duckdns.org/",
+                "client_name": null,
+                "created_at": "2020-07-01T12:56:57.481083+00:00",
+                "id": "760fb2d5bbab4d7f9559f120becc2a5a",
+                "jwt_key": "d9e3314357affc5325bf618e313c5b84cf5dbc528f205509ebefb2f7b52b78a9ed084b3f9a753004a8f50864e3155b50fdfa6f355252a49c6d4fd3c344cb6ac3",
+                "last_used_at": "2020-07-01T12:56:57.481276+00:00",
+                "last_used_ip": "127.0.0.1",
+                "token": "e7cd405283ffa77644fb2eee4820eacfb42e902361434c6cd339e5223210400e760fed358fac5052c44233b43a2c1a46454cacf687cb1cf8ce61baa833d47be4",
+                "token_type": "normal",
+                "user_id": "a3257ab1edbc427186cdc26bb99503e4"
+            },
+            {
+                "access_token_expiration": 315360000.0,
+                "client_icon": null,
+                "client_id": null,
+                "client_name": "HA",
+                "created_at": "2020-07-01T13:10:06.397697+00:00",
+                "id": "b4a127b8dc554663bed86d32a68606c4",
+                "jwt_key": "08aa5ce5603d14f4246cce42ebfe238953f65a5308157e094e488d47149670aa3c4c9387d213806293f1e8fb2a13f254b45b81a621253a2105784d0fd8e1f43d",
+                "last_used_at": "2020-07-01T13:10:06.397927+00:00",
+                "last_used_ip": null,
+                "token": "9fbbd9a177f4297911e843ac4e81c87c98e3a88cdc070ebf4a676f91f33b9ce0a9d186eb165160cd53da7e836bf0e05f1928a3a2eac95a39d40f847574ef0d62",
+                "token_type": "long_lived_access_token",
+                "user_id": "a3257ab1edbc427186cdc26bb99503e4"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://yongsoo.duckdns.org/",
+                "client_name": null,
+                "created_at": "2020-07-03T12:36:33.882310+00:00",
+                "id": "b9c19049796047b3877e0b0aeb4d5c17",
+                "jwt_key": "555e9bdbb12f282c416e1c5aef28263af6d9441a4fb1d146b758ac44cc4524ef057fcf67d5632f8d3dcb9ddd999ffd96057aabdfef0240b4edd86bc30a92ab91",
+                "last_used_at": "2020-07-05T14:47:58.745161+00:00",
+                "last_used_ip": "127.0.0.1",
+                "token": "09211bd33dbed967b8ec2757769f21d055fbcee8e7e27ed734582dfdf24d344a34f30e0dfa9a99da893c26225ed50d4a51e0150da2514a65b7bc1e08c8133113",
+                "token_type": "normal",
+                "user_id": "a3257ab1edbc427186cdc26bb99503e4"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://yongsoo.duckdns.org/",
+                "client_name": null,
+                "created_at": "2020-07-06T12:52:19.430254+00:00",
+                "id": "69f2e0ae8ce24ce3971475d9d69125a8",
+                "jwt_key": "ef7eb6704b7a657556c0ab7f07828963a0f615b79674e3b75a5f331dad74a9066d9c1faca7c778e98596c2c359cf468304ccbdad5799e391188afd1d814d495b",
+                "last_used_at": "2020-07-06T12:52:19.430447+00:00",
+                "last_used_ip": "127.0.0.1",
+                "token": "9c1a22b49b636d85aace5528f9d6a31c0f6d037d64355657af28ade0132c5b1dddf27125fcf51ef0711e08a8fe1c179865f5db147dba2b8678f1951fd9ddb04d",
+                "token_type": "normal",
+                "user_id": "a3257ab1edbc427186cdc26bb99503e4"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://yongsoo.duckdns.org/",
+                "client_name": null,
+                "created_at": "2020-07-06T13:59:55.017880+00:00",
+                "id": "f679ae808e6d47b8af14bd3dbc0abf97",
+                "jwt_key": "95bfc4f0462d14cd42dca81a23dbe722bbf95cfc181468e5d4c3ad9f891c0ba24f9608affcedcc39f4401b5abbacf309b632c6e0aef01ebdee645551342fc413",
+                "last_used_at": "2020-07-06T13:59:55.018078+00:00",
+                "last_used_ip": "127.0.0.1",
+                "token": "b32055fb65b3d95ba8b19a432f3848b6e455f6a7dc576f756c65878d40d13e2aed95ae48366c78e0f541f77c86a73b38db454f8162d3a46c55c2c0154c51f35c",
+                "token_type": "normal",
+                "user_id": "a3257ab1edbc427186cdc26bb99503e4"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "http://192.168.1.2:8123/",
+                "client_name": null,
+                "created_at": "2020-08-29T10:00:34.166056+00:00",
+                "id": "e3c23cb9e308438d9cd9685affb85afb",
+                "jwt_key": "822d798b083b2bc508d664e7e6e0194fcada7d9fc83e2408ac1afe1b466c285058b6da516b27865571fdf7e967df7e24f5ed19bbdbe80f554faca75503c7b07f",
+                "last_used_at": "2020-08-29T10:00:34.166365+00:00",
+                "last_used_ip": "192.168.1.59",
+                "token": "b4bc166c81aec864376854c24ada2b169c4e671c9d0fabe3823e5c052b8f55957b774dd0d4614ef85ace0f4adf11cb24c5b60cac28081295b538ecca7001604e",
+                "token_type": "normal",
+                "user_id": "a3257ab1edbc427186cdc26bb99503e4"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "http://192.168.1.2:8123/",
+                "client_name": null,
+                "created_at": "2020-08-29T10:00:44.851054+00:00",
+                "id": "8cfbcf2eecfd4e7caabd72142235881f",
+                "jwt_key": "f96aaaf5cfbc9571d38bc3f0dde8f99ba7e5e5461d5d4268f478422dde0e158ab84e940cab356dc1b5bed32706fd47939a6732afc904966a687bc31c845ff316",
+                "last_used_at": "2020-08-29T10:00:44.851245+00:00",
+                "last_used_ip": "192.168.1.59",
+                "token": "c9a0d35b864d605eef45817c67d846ee404e9c1460c03c1e315986bdae36ac64dc31ba28feda4370c6c5715467273b5c4dbac3fb8772c6848e4606520ef81cbf",
+                "token_type": "normal",
+                "user_id": "a3257ab1edbc427186cdc26bb99503e4"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "http://qjsro3975.synology.me:8123/",
+                "client_name": null,
+                "created_at": "2020-12-22T01:53:39.624294+00:00",
+                "id": "cbe24db2caa44b66b84db4608913104f",
+                "jwt_key": "5a57791507d60bb98353e28567549ee9696fc48e5c4ecd0661d76900aa18a15047148d7b19f141bf47db8cf60c726d1ca1dd978f490dd2152ca821d3146c7817",
+                "last_used_at": "2020-12-22T01:53:39.624489+00:00",
+                "last_used_ip": "192.168.1.1",
+                "token": "962c9457dbf629ea289ca079492c50274d746efecd5b9af29af497529885806c843b33b497762b20f970882621566741723089f230a99a3898a5bf55694833dc",
+                "token_type": "normal",
+                "user_id": "a3257ab1edbc427186cdc26bb99503e4"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "http://qjsro3975.synology.me:8123/",
+                "client_name": null,
+                "created_at": "2020-12-22T02:18:25.005371+00:00",
+                "id": "2d6bbcccf6a0414da5f29c901f0d66c3",
+                "jwt_key": "921a9d435b4da0a7fd73b427df0f0151cdfe1a71e8e2745b7b6f4195b6e928eb5bfe30c04a55e9fe88645574cb1b306b3b46efd758d1ada24cc477299946c9c8",
+                "last_used_at": "2020-12-22T05:36:21.215494+00:00",
+                "last_used_ip": "192.168.1.1",
+                "token": "78e165c262cea4526016c115eb1dba1a55591c1bd31c8a1f2bc2ca3a037e9c2c31fd29769f4ae5f388d34c58a49245f918af62fb66348a848380f398119b2a3a",
+                "token_type": "normal",
+                "user_id": "a3257ab1edbc427186cdc26bb99503e4"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "http://qjsro3975.synology.me:8123/",
+                "client_name": null,
+                "created_at": "2020-12-22T07:43:08.880399+00:00",
+                "id": "e1090a661bce4c119f586e290965acef",
+                "jwt_key": "b03ea6e2a98ff811e503646faf296206a7245d7d08dbf7a676792e71c60f9d2e9f4b11591c5befb78f5fa7a62feebcd008056f850c4ea83e659dba8649123916",
+                "last_used_at": "2020-12-23T03:35:45.617216+00:00",
+                "last_used_ip": "192.168.1.1",
+                "token": "ff17627067fced53537ee34b98058aa000c0e2e1e9cf89a7a3c796bdc08dff731b02aa176bff0be69cbb6f8527dc37948159cdd4ee858c5b3ed0c161a9e52d55",
+                "token_type": "normal",
+                "user_id": "a3257ab1edbc427186cdc26bb99503e4"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "http://192.168.1.2:8123/",
+                "client_name": null,
+                "created_at": "2020-12-23T08:33:05.312808+00:00",
+                "id": "379a8cd419c747dd981791f2f6438a1e",
+                "jwt_key": "ebeef767b44b5cda2e4ef933d8818916d937299ba55395585863526d35868aa5256bfcc76b2ef1e4b78ba5caf83ec98800ae5d95a7f6f6ebe0ff029f57a8d455",
+                "last_used_at": "2020-12-28T13:40:17.809631+00:00",
+                "last_used_ip": "192.168.1.68",
+                "token": "c82c8678dad56b445d4b73ceae25a7356da0259aca14f6916b0f5094b0f1c8731bb8c120f78cf555ebfb18ec68a45f3d18e28e489f2f23c5c0d461e08b5f0a29",
+                "token_type": "normal",
+                "user_id": "a3257ab1edbc427186cdc26bb99503e4"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "http://192.168.1.2:8123/",
+                "client_name": null,
+                "created_at": "2020-12-24T14:25:06.586783+00:00",
+                "id": "8a46b0995665491991f7a96ebc253dd1",
+                "jwt_key": "16aaeff6cf7f1f6c2ee8845991b53de1762bc61a0b9cc9e5fdb94817467f3f06a79a9c8c4c159b61cdf1ef9c9595fc37351b43d9da7bc98e0e9ce8a27c57be0a",
+                "last_used_at": "2020-12-24T14:25:06.586976+00:00",
+                "last_used_ip": "192.168.1.141",
+                "token": "192dd1fc2cf473dafd265130679c7345a954bd36b8574432fd6ff67f7b6ca7274c3020d29d6495261a233a0759388c999508b22a92075d82fd4d7292ba25187d",
+                "token_type": "normal",
+                "user_id": "a3257ab1edbc427186cdc26bb99503e4"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": null,
+                "client_name": null,
+                "created_at": "2020-06-21T09:16:05.969740+00:00",
+                "id": "bfc448f785bf45b3a84081c89fe702a9",
+                "jwt_key": "f79d4aa5edadf953e58af3c441e71b07768fa68c50d0c07ad8969c985e13a475e5d19114c6ee6402a26bc8b20ccb68672e1b54ed0306891187d47edfcb00902c",
+                "last_used_at": null,
+                "last_used_ip": null,
+                "token": "7edb73ae7c73b9e3372c6169f5c9d4f0748522246081e85a9c9854d149f4e2fcac391c671284ef1ccf2fc953c2eae0dbf14ad2c1d08069331f9d949840be5d0d",
+                "token_type": "system",
+                "user_id": "4910cb7b00b9482db2c0c0d35631c70f"
+            }
+        ],
+        "users": [
+            {
+                "group_ids": [
+                    "system-admin"
+                ],
+                "id": "5ee52bf402f24927afea8cba7efb5c3e",
+                "is_active": true,
+                "is_owner": false,
+                "name": "Hass.io",
+                "system_generated": true
+            },
+            {
+                "group_ids": [
+                    "system-admin"
+                ],
+                "id": "a3257ab1edbc427186cdc26bb99503e4",
+                "is_active": true,
+                "is_owner": true,
+                "name": "qjsro3975",
+                "system_generated": false
+            },
+            {
+                "group_ids": [
+                    "system-admin"
+                ],
+                "id": "4910cb7b00b9482db2c0c0d35631c70f",
+                "is_active": true,
+                "is_owner": false,
+                "name": "Home Assistant Cast",
+                "system_generated": true
+            }
+        ]
+    },
+    "key": "auth",
+    "version": 1
+}

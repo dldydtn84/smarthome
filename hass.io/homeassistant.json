@@ -1,0 +1,14 @@
+{
+  "port": 8123,
+  "watchdog": true,
+  "audio_input": "None",
+  "ssl": false,
+  "uuid": "48a26d46a60f4ee6855f55fdef6e77d7",
+  "audio_output": "None",
+  "boot": true,
+  "wait_boot": 600,
+  "version": "0.112.1",
+  "image": "homeassistant/qemux86-64-homeassistant",
+  "access_token": "e12b184ccdc2f400e724180fba3fde8922885337e4d69abb6ba14703f23b84f3185b36cdc2031c75b303237200aabddaecf859f2b34dc606",
+  "refresh_token": "fabfa842c5e6a0b6e8a66fb9d58dd63f60dae24db06abc0432a8a65f357f42013723526202a4e1d3a6bbb774f0b6e3dda9bbc43b1d08880c7085a16acbfabbf3"
+}

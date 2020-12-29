@@ -1,0 +1,44 @@
+
+# Configure a default setup of Home Assistant (frontend, api, etc)
+default_config:
+
+# Uncomment this if you are using SSL/TLS, running in Docker container, etc.
+# http:
+#   base_url: example.duckdns.org:8123
+
+
+ha_connector:
+  app_url: https://graph-ap02-apnortheast2.api.smartthings.com:443/api/smartapps/installations/
+  app_id: 2c268b00-b306-469f-8d7a-03275175c470
+  access_token: da3543f2-abf7-4a2a-b78c-ff0b98084d78
+
+# Text to speech
+tts:
+  - platform: google_translate
+
+
+group: !include groups.yaml
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml
+light: !include lights.yaml
+climate: !include climate.yaml
+switch: !include switchs.yaml
+sensor: !include sensors.yaml
+
+mqtt:
+  broker: 192.168.1.2
+  port: 1883
+  username: yongsoo
+  password: ritkfygh12
+
+
+   
+remote:
+  - platform: xiaomi_miio
+    name: "remote"
+    host: 192.168.1.152
+    token: 71346c52eecf9aea8d529acd0c9a263e
+
+
+    

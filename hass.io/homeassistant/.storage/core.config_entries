@@ -1,0 +1,152 @@
+{
+    "data": {
+        "entries": [
+            {
+                "connection_class": "cloud_poll",
+                "data": {
+                    "track_home": true
+                },
+                "domain": "met",
+                "entry_id": "5e920d56cef04de1a3e8b47e79e073a7",
+                "options": {},
+                "source": "onboarding",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Home",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "local_push",
+                "data": {
+                    "host": "192.168.1.122",
+                    "password": "",
+                    "port": 6053
+                },
+                "domain": "esphome",
+                "entry_id": "31ca2394f1b24958ba612f82265e8f11",
+                "options": {},
+                "source": "zeroconf",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "doorlock",
+                "unique_id": "doorlock",
+                "version": 1
+            },
+            {
+                "connection_class": "local_push",
+                "data": {
+                    "user_id": "4910cb7b00b9482db2c0c0d35631c70f"
+                },
+                "domain": "cast",
+                "entry_id": "04e0b583dfe64b25848d407f91f14be9",
+                "options": {},
+                "source": "zeroconf",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Google Cast",
+                "unique_id": "cast",
+                "version": 1
+            },
+            {
+                "connection_class": "local_poll",
+                "data": {
+                    "config_flow_device": "gateway",
+                    "host": "192.168.1.205",
+                    "mac": "04:cf:8c:b0:9d:5e",
+                    "model": "lumi.gateway.v3",
+                    "token": "e39968b89a9e7124ccadf6b6679a5398"
+                },
+                "domain": "xiaomi_miio",
+                "entry_id": "cf9eb37df01042e19d019afd58c920ae",
+                "options": {},
+                "source": "zeroconf",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Xiaomi Gateway",
+                "unique_id": "04:cf:8c:b0:9d:5e",
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_push",
+                "data": {
+                    "app_data": {
+                        "push_token": "eMMFbMG4cec:APA91bH7iUarXU3ThnSujtbaSlaRFKymiG-pMbAtVVhFxEqbGAUwl6bWIe0epDyQU5v3liOFyoHKURCVta0n8xmpLVxNOmVanhv5xKKhOEkuBDHzWYHp-YCZryoEkqo-3T54dtxnyMEs",
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPush/android/v1"
+                    },
+                    "app_id": "io.homeassistant.companion.android",
+                    "app_name": "Home Assistant",
+                    "app_version": "1.8.0-144 (144)",
+                    "device_id": "e757c8fb213137d2",
+                    "device_name": "SM-G973N",
+                    "manufacturer": "samsung",
+                    "model": "SM-G973N",
+                    "os_name": "Android",
+                    "os_version": "29",
+                    "supports_encryption": false,
+                    "user_id": "a3257ab1edbc427186cdc26bb99503e4",
+                    "webhook_id": "ad03b1390b8891fd7ba2ebae60d243569a9a76dada4a8f3e860cb58bcf95bc8e"
+                },
+                "domain": "mobile_app",
+                "entry_id": "570ac210e7ef47dd868b01070ba063e3",
+                "options": {},
+                "source": "registration",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "SM-G973N",
+                "unique_id": "io.homeassistant.companion.android-e757c8fb213137d2",
+                "version": 1
+            },
+            {
+                "connection_class": "local_push",
+                "data": {
+                    "broker": "core-mosquitto.local.hass.io",
+                    "discovery": true,
+                    "password": "raiWo4eixah8HaiS1dei6Ahweehoh2oPhooth0phutoo6quuFoo7ohraov4kuw4u",
+                    "port": 1883,
+                    "protocol": "3.1.1",
+                    "username": "homeassistant"
+                },
+                "domain": "mqtt",
+                "entry_id": "a337fbf62bc34ed9b3da3415f3743bb2",
+                "options": {},
+                "source": "hassio",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Mosquitto broker",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_push",
+                "data": {
+                    "access_token": "2c1cca77-f550-494a-be62-31e2c3d7a63b",
+                    "app_id": "16e3bc1b-3f07-4178-902b-910aaad448fb",
+                    "client_id": "86ee0c40-bc82-40a6-8194-a898880d5ab2",
+                    "client_secret": "833c10ba-e7db-4c74-8f36-8cbb43e29aa9",
+                    "installed_app_id": "208d476d-a3f6-45fd-aab2-da853b65974b",
+                    "location_id": "a9abcedf-25a5-4a0f-9bd9-5b9db541679e",
+                    "refresh_token": "e6c02970-6882-4d64-b1a0-606c598b51eb"
+                },
+                "domain": "smartthings",
+                "entry_id": "3a12a7bc19b84aeabd7f0756e53fafc7",
+                "options": {},
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "\uc6b0\ub9ac \uc9d1",
+                "unique_id": "16e3bc1b-3f07-4178-902b-910aaad448fb_a9abcedf-25a5-4a0f-9bd9-5b9db541679e",
+                "version": 2
+            }
+        ]
+    },
+    "key": "core.config_entries",
+    "version": 1
+}

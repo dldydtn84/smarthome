@@ -1,0 +1,417 @@
+{
+  "system": {
+    "core_configurator": {
+      "name": "File editor",
+      "version": "5.0.0",
+      "slug": "configurator",
+      "description": "Simple browser-based file editor for Home Assistant",
+      "url": "https://github.com/home-assistant/hassio-addons/tree/master/configurator",
+      "arch": [
+        "armhf",
+        "armv7",
+        "aarch64",
+        "amd64",
+        "i386"
+      ],
+      "homeassistant": "0.91.1",
+      "startup": "application",
+      "init": false,
+      "ingress": true,
+      "panel_icon": "mdi:wrench",
+      "homeassistant_api": true,
+      "boot": "auto",
+      "map": [
+        "backup:rw",
+        "config:rw",
+        "share:rw",
+        "ssl:rw"
+      ],
+      "options": {
+        "dirsfirst": false,
+        "enforce_basepath": true,
+        "ignore_pattern": [
+          "__pycache__",
+          ".cloud",
+          ".storage",
+          "deps"
+        ],
+        "ssh_keys": []
+      },
+      "schema": {
+        "dirsfirst": "bool",
+        "enforce_basepath": "bool",
+        "ignore_pattern": [
+          "str"
+        ],
+        "ssh_keys": [
+          "str"
+        ]
+      },
+      "image": "homeassistant/{arch}-addon-configurator",
+      "gpio": false,
+      "udev": false,
+      "hassio_role": "default",
+      "host_ipc": false,
+      "timeout": 10,
+      "legacy": false,
+      "audio": false,
+      "docker_api": false,
+      "hassio_api": false,
+      "host_pid": false,
+      "stdin": false,
+      "kernel_modules": false,
+      "video": false,
+      "ingress_port": 8099,
+      "host_dbus": false,
+      "auto_uart": false,
+      "full_access": false,
+      "host_network": false,
+      "advanced": false,
+      "apparmor": true,
+      "devicetree": false,
+      "auth_api": false,
+      "panel_admin": true,
+      "stage": "stable",
+      "repository": "core",
+      "location": "/data/addons/core/configurator",
+      "usb": false
+    },
+    "core_mosquitto": {
+      "name": "Mosquitto broker",
+      "version": "5.1",
+      "slug": "mosquitto",
+      "description": "An Open Source MQTT broker",
+      "url": "https://github.com/home-assistant/hassio-addons/tree/master/mosquitto",
+      "arch": [
+        "armhf",
+        "armv7",
+        "aarch64",
+        "amd64",
+        "i386"
+      ],
+      "startup": "system",
+      "boot": "auto",
+      "map": [
+        "ssl",
+        "share"
+      ],
+      "discovery": [
+        "mqtt"
+      ],
+      "services": [
+        "mqtt:provide"
+      ],
+      "auth_api": true,
+      "ports": {
+        "1883/tcp": 1883,
+        "1884/tcp": 1884,
+        "8883/tcp": 8883,
+        "8884/tcp": 8884
+      },
+      "options": {
+        "logins": [],
+        "anonymous": false,
+        "customize": {
+          "active": false,
+          "folder": "mosquitto"
+        },
+        "certfile": "fullchain.pem",
+        "keyfile": "privkey.pem",
+        "require_certificate": false
+      },
+      "schema": {
+        "logins": [
+          {
+            "username": "str",
+            "password": "str"
+          }
+        ],
+        "anonymous": "bool",
+        "customize": {
+          "active": "bool",
+          "folder": "str"
+        },
+        "cafile": "str?",
+        "certfile": "str",
+        "keyfile": "str",
+        "require_certificate": "bool"
+      },
+      "image": "homeassistant/{arch}-addon-mosquitto",
+      "gpio": false,
+      "udev": false,
+      "hassio_role": "default",
+      "host_ipc": false,
+      "timeout": 10,
+      "legacy": false,
+      "audio": false,
+      "docker_api": false,
+      "hassio_api": false,
+      "panel_icon": "mdi:puzzle",
+      "host_pid": false,
+      "stdin": false,
+      "homeassistant_api": false,
+      "kernel_modules": false,
+      "video": false,
+      "ingress_port": 8099,
+      "host_dbus": false,
+      "auto_uart": false,
+      "full_access": false,
+      "host_network": false,
+      "ingress": false,
+      "advanced": false,
+      "apparmor": true,
+      "devicetree": false,
+      "panel_admin": true,
+      "stage": "stable",
+      "init": true,
+      "repository": "core",
+      "location": "/data/addons/core/mosquitto",
+      "usb": false
+    },
+    "25b6f150_wallpad": {
+      "name": "Wallpad Controller with RS485",
+      "version": "0.8.6",
+      "slug": "wallpad",
+      "description": "\ucf54\ub9e5\uc2a4/\uc0bc\uc131/\ub300\ub9bc \uc6d4\ud328\ub4dc\uac00 \uac00\ub2a5\ud55c nodejs \uc11c\ubc84 \uc560\ub4dc\uc628\uc785\ub2c8\ub2e4.",
+      "arch": [
+        "armhf",
+        "armv7",
+        "aarch64",
+        "amd64",
+        "i386"
+      ],
+      "map": [
+        "share:rw"
+      ],
+      "url": "https://github.com/HAKorea/addons",
+      "startup": "application",
+      "boot": "auto",
+      "auto_uart": true,
+      "options": {
+        "model": "commax",
+        "type": "serial",
+        "sendDelay": 150,
+        "serial": {
+          "port": "/dev/ttyUSB0",
+          "baudrate": 9600,
+          "parity": "none"
+        },
+        "socket": {
+          "deviceIP": "192.0.0.1",
+          "port": 8899
+        },
+        "mqtt": {
+          "server": "192.168.x.x",
+          "username": "id",
+          "password": "pw",
+          "receiveDelay": 10000
+        }
+      },
+      "schema": {
+        "model": "list(commax|samsung|daelim|hyundai)",
+        "type": "list(serial|socket)",
+        "sendDelay": "int",
+        "serial": {
+          "port": "str?",
+          "baudrate": "int?",
+          "parity": "list(none|even|odd)?"
+        },
+        "socket": {
+          "deviceIP": "str?",
+          "port": "int?"
+        },
+        "mqtt": {
+          "server": "str",
+          "username": "str",
+          "password": "str",
+          "receiveDelay": "int"
+        },
+        "customfile": "str?"
+      },
+      "gpio": false,
+      "udev": false,
+      "hassio_role": "default",
+      "host_ipc": false,
+      "timeout": 10,
+      "legacy": false,
+      "audio": false,
+      "docker_api": false,
+      "hassio_api": false,
+      "panel_icon": "mdi:puzzle",
+      "host_pid": false,
+      "stdin": false,
+      "homeassistant_api": false,
+      "kernel_modules": false,
+      "video": false,
+      "ingress_port": 8099,
+      "host_dbus": false,
+      "full_access": false,
+      "host_network": false,
+      "ingress": false,
+      "advanced": false,
+      "apparmor": true,
+      "devicetree": false,
+      "auth_api": false,
+      "panel_admin": true,
+      "stage": "stable",
+      "init": true,
+      "repository": "25b6f150",
+      "location": "/data/addons/git/25b6f150/wallpad",
+      "usb": false
+    },
+    "15ef4d2f_esphome": {
+      "arch": [
+        "amd64",
+        "i386",
+        "armv7",
+        "aarch64"
+      ],
+      "auth_api": true,
+      "auto_uart": true,
+      "boot": "auto",
+      "description": "ESPHome Hass.io add-on for intelligently managing all your ESP8266/ESP32 devices.",
+      "hassio_api": true,
+      "hassio_role": "default",
+      "homeassistant_api": false,
+      "host_network": true,
+      "image": "esphome/esphome-hassio-{arch}",
+      "ingress": true,
+      "ingress_port": 0,
+      "map": [
+        "ssl:ro",
+        "config:rw"
+      ],
+      "name": "ESPHome",
+      "options": {},
+      "panel_icon": "mdi:chip",
+      "ports": {
+        "6052/tcp": null
+      },
+      "ports_description": {
+        "6052/tcp": "Web interface (Not required for Hass.io Ingress)"
+      },
+      "schema": {
+        "certfile": "str?",
+        "esphome_version": "str?",
+        "keyfile": "str?",
+        "leave_front_door_open": "bool?",
+        "relative_url": "str?",
+        "ssl": "bool?",
+        "status_use_ping": "bool?",
+        "streamer_mode": "bool?"
+      },
+      "slug": "esphome",
+      "startup": "application",
+      "url": "https://esphome.io/",
+      "version": "1.14.4",
+      "webui": "http://[HOST]:[PORT:6052]",
+      "gpio": false,
+      "udev": false,
+      "host_ipc": false,
+      "timeout": 10,
+      "legacy": false,
+      "audio": false,
+      "docker_api": false,
+      "host_pid": false,
+      "stdin": false,
+      "kernel_modules": false,
+      "video": false,
+      "host_dbus": false,
+      "full_access": false,
+      "advanced": false,
+      "apparmor": true,
+      "devicetree": false,
+      "panel_admin": true,
+      "stage": "stable",
+      "init": true,
+      "repository": "15ef4d2f",
+      "location": "/data/addons/git/15ef4d2f/esphome",
+      "usb": false
+    }
+  },
+  "user": {
+    "core_configurator": {
+      "options": {},
+      "version": "5.0.0",
+      "image": "homeassistant/amd64-addon-configurator",
+      "protected": true,
+      "auto_update": false,
+      "ingress_panel": true,
+      "uuid": "369c2122c5f74e5786a46431704cdaae",
+      "ingress_token": "pIab-0Qs6AQ3oB2kdBsrkqMpu741Kzp4Cn1ni1EMyyk",
+      "access_token": "e4346bc55e3c35764746af505a896d499943548eb989ae5534a64b38eec14bfd6ccd2ec2b7ab76f8512a44a40d4c2539f2682095434ae32e",
+      "watchdog": false
+    },
+    "core_mosquitto": {
+      "options": {
+        "logins": [
+          {
+            "username": "yongsoo",
+            "password": "ritkfygh12"
+          }
+        ],
+        "anonymous": false,
+        "customize": {
+          "active": false,
+          "folder": "mosquitto"
+        },
+        "certfile": "fullchain.pem",
+        "keyfile": "privkey.pem",
+        "require_certificate": false
+      },
+      "version": "5.1",
+      "image": "homeassistant/amd64-addon-mosquitto",
+      "protected": true,
+      "auto_update": false,
+      "ingress_panel": false,
+      "uuid": "66cfa749c4ef49d5b64dee99e9c9af52",
+      "ingress_token": "A-KFP7z-ZeSMga_Nr5ap3hiHW4qiqn2-3idf20SuccE",
+      "access_token": "65c088cdf484720c6d55ca4a2d21dcf24a81f34482e298b4a65215c096aa13a9a5c1ecd1f40ac79a12d607ec1abdf17365718cfd3c8a76be",
+      "watchdog": false
+    },
+    "25b6f150_wallpad": {
+      "options": {
+        "model": "commax",
+        "type": "socket",
+        "sendDelay": 150,
+        "serial": {
+          "port": "/dev/ttyUSB0",
+          "baudrate": 9600,
+          "parity": "none"
+        },
+        "socket": {
+          "deviceIP": "192.168.1.216",
+          "port": 8899
+        },
+        "mqtt": {
+          "server": "192.168.1.2",
+          "username": "yongsoo",
+          "password": "ritkfygh12",
+          "receiveDelay": 10000
+        }
+      },
+      "version": "0.8.6",
+      "image": "25b6f150/amd64-addon-wallpad",
+      "protected": true,
+      "auto_update": false,
+      "ingress_panel": false,
+      "uuid": "df8e50c6375747c1948eb8b67fcdde47",
+      "ingress_token": "2g1tkHzoyUmiHY-qtYRWhzVkSllXCCJucxmWvZ3dJG4",
+      "access_token": "16e0826811fd0904c51f0f83773e782f136701d7878d4217b5c7960092700c80e6a22a47a14a42c6c1ca191dc1b9bbf32263d7e892fb22f6",
+      "watchdog": false,
+      "boot": "auto"
+    },
+    "15ef4d2f_esphome": {
+      "options": {},
+      "version": "1.14.4",
+      "image": "esphome/esphome-hassio-amd64",
+      "protected": true,
+      "auto_update": false,
+      "ingress_panel": true,
+      "uuid": "fda28a8ed2064641b49302f1754b70ec",
+      "ingress_token": "u9S39R26rieZakODgcGppGcm-DSH2pNAWyaHUXkN1tg",
+      "access_token": "e6490be91eb00de4ed982f22d36d350c8d45ff8da24407e66f86ae14660d525bb852e097b3b431e4ad82066a33d523e8846ae8de0dd232d4",
+      "watchdog": false
+    }
+  }
+}

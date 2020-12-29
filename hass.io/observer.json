@@ -1,0 +1,5 @@
+{
+  "version": "2020.10.1",
+  "image": "homeassistant/amd64-hassio-observer",
+  "access_token": "111e8636857eb28ef905b8d4b71d7f1252565b4944a4e156ef17303b080bef9b4826eb104fb332c68679f4d9215da01de7d2a132b5c538c6"
+}

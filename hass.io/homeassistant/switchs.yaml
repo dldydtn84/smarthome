@@ -1,0 +1,14 @@
+  - platform: mqtt
+    name: "일괄소등" 
+    state_topic: "homenet/BatchSwitch1/power/state"
+    command_topic: "homenet/BatchSwitch1/power/command" 
+    
+  - platform: mqtt
+    name: "가스"
+    state_topic: "homenet/Gas1/power/state"
+    command_topic: "homenet/Gas1/power/command" 
+    
+  - platform: mqtt
+    name: "엘레베이터"
+    state_topic: "homenet/EV1/power/state"
+    command_topic: "homenet/EV1/power/command" 

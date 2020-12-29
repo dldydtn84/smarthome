@@ -1,0 +1,812 @@
+{
+    "data": {
+        "deleted_devices": [],
+        "devices": [
+            {
+                "area_id": null,
+                "config_entries": [
+                    "31ca2394f1b24958ba612f82265e8f11"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "84:f3:eb:48:ad:15"
+                    ]
+                ],
+                "entry_type": null,
+                "id": "7cf988a0603042f2873b9bdc22f8a78f",
+                "identifiers": [],
+                "manufacturer": "espressif",
+                "model": "PLATFORMIO_ESP01_1M",
+                "name": "doorlock",
+                "name_by_user": null,
+                "sw_version": "1.14.3 (May 15 2020, 23:04:41)",
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "04e0b583dfe64b25848d407f91f14be9"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "9b9059d40bed49b4aef4cf8509e2058d",
+                "identifiers": [
+                    [
+                        "cast",
+                        "385512aceeb78556b44e1bac24941a7c"
+                    ]
+                ],
+                "manufacturer": "Google Inc.",
+                "model": "Chromecast",
+                "name": "\uac70\uc2e4 2",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "04e0b583dfe64b25848d407f91f14be9"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "3fe92b42ae6746de98947ad14652e5e7",
+                "identifiers": [
+                    [
+                        "cast",
+                        "08de56f1848c745012682018e0f6ce7c"
+                    ]
+                ],
+                "manufacturer": "Google Inc.",
+                "model": "Google Home Mini",
+                "name": "\uc6a9\uc218\ubc29",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "04e0b583dfe64b25848d407f91f14be9"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "5fad9bbb6a6f4f769f82eb6adc95b47a",
+                "identifiers": [
+                    [
+                        "cast",
+                        "7a756f179b456232833dd6240e45dcb1"
+                    ]
+                ],
+                "manufacturer": "Google Inc.",
+                "model": "Google Home Mini",
+                "name": "\uac70\uc2e4",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "04e0b583dfe64b25848d407f91f14be9"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "9eeeab73d63647ec99af67ee89c28a7d",
+                "identifiers": [
+                    [
+                        "cast",
+                        "039bd6ddbfb0bc6be789f202c787a9d5"
+                    ]
+                ],
+                "manufacturer": "Google Inc.",
+                "model": "Google Home Mini",
+                "name": "\uc548\ubc29",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "cf9eb37df01042e19d019afd58c920ae"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "04:cf:8c:b0:9d:5e"
+                    ]
+                ],
+                "entry_type": null,
+                "id": "46609346badb400ca166d51c25de1e5c",
+                "identifiers": [
+                    [
+                        "xiaomi_miio",
+                        "04:cf:8c:b0:9d:5e"
+                    ]
+                ],
+                "manufacturer": "Xiaomi",
+                "model": "lumi.gateway.v3-MW300",
+                "name": "Xiaomi Gateway",
+                "name_by_user": null,
+                "sw_version": "1.4.1_175",
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "570ac210e7ef47dd868b01070ba063e3"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "b67912259a874d33b9c83ec2ea0ec595",
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "e757c8fb213137d2"
+                    ]
+                ],
+                "manufacturer": "samsung",
+                "model": "SM-G973N",
+                "name": "SM-G973N",
+                "name_by_user": null,
+                "sw_version": "29",
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "3a12a7bc19b84aeabd7f0756e53fafc7"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "4e3a8e024f2c4f3e933f2652453cd4c7",
+                "identifiers": [
+                    [
+                        "smartthings",
+                        "C0972770-20C4-0000-0000-000000000000"
+                    ]
+                ],
+                "manufacturer": "Unavailable",
+                "model": "Samsung OCF Air Conditioner",
+                "name": "\uc2a4\ud0e0\ub4dc\ud615 \uc5d0\uc5b4\ucee8",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "3a12a7bc19b84aeabd7f0756e53fafc7"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "4c72c0ccf6aa42f18ed86f04aa9530e9",
+                "identifiers": [
+                    [
+                        "smartthings",
+                        "43dbcc27-d1dc-44fd-ac6e-3c1e786aa757"
+                    ]
+                ],
+                "manufacturer": "Unavailable",
+                "model": "HA Heater",
+                "name": "\uc6a9\uc218\ubc29\ubcf4\uc77c\ub7ec",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "3a12a7bc19b84aeabd7f0756e53fafc7"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "96a885926e6249eb8960cd0aac957de1",
+                "identifiers": [
+                    [
+                        "smartthings",
+                        "9b827fa3-de8b-4fb1-b3b4-b4320df315c5"
+                    ]
+                ],
+                "manufacturer": "Unavailable",
+                "model": "Xiaomi Gateway",
+                "name": "Xiaomi Gateway V3",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "3a12a7bc19b84aeabd7f0756e53fafc7"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "ec8fec60cab04a40b7f198622c7260d9",
+                "identifiers": [
+                    [
+                        "smartthings",
+                        "f430bb1f-b0c0-4059-837e-2c686ffd4d9d"
+                    ]
+                ],
+                "manufacturer": "Unavailable",
+                "model": "Tasmota Generic Switch",
+                "name": "\ucef4\ud4e8\ud130 \ubc29",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "3a12a7bc19b84aeabd7f0756e53fafc7"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "d9b5b17a4af14ad9952b6336c10cb5e3",
+                "identifiers": [
+                    [
+                        "smartthings",
+                        "66681205-6557-4b6b-84a8-0cf20a73ef45"
+                    ]
+                ],
+                "manufacturer": "Unavailable",
+                "model": "DawonDNS SmartPlug",
+                "name": "DAWON SmartPlug 10A",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "3a12a7bc19b84aeabd7f0756e53fafc7"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "72106e0236e14e79a505a3663ab24c03",
+                "identifiers": [
+                    [
+                        "smartthings",
+                        "3cdae415-9eff-4875-9ff9-a74597e83144"
+                    ]
+                ],
+                "manufacturer": "Unavailable",
+                "model": "HA Switch",
+                "name": "\uac70\uc2e4\ubd88",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "3a12a7bc19b84aeabd7f0756e53fafc7"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "3f4885fdc8574a4197e8bc4615676169",
+                "identifiers": [
+                    [
+                        "smartthings",
+                        "31cd2764-5e17-495e-8d9d-1eb1e2d57394"
+                    ]
+                ],
+                "manufacturer": "Unavailable",
+                "model": "HA Switch",
+                "name": "Doorlock",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "3a12a7bc19b84aeabd7f0756e53fafc7"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "508b47285b594c799fcfc55f94d54d3d",
+                "identifiers": [
+                    [
+                        "smartthings",
+                        "6fb5aec3-bed3-467d-ac72-77c87e1f13fc"
+                    ]
+                ],
+                "manufacturer": "Unavailable",
+                "model": "DawonDNS SmartPlug",
+                "name": "DAWON SmartPlug 16A",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "3a12a7bc19b84aeabd7f0756e53fafc7"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "100a4a1ea78841d2bd47d14659ce953a",
+                "identifiers": [
+                    [
+                        "smartthings",
+                        "dbca2223-446c-4d4d-8ce0-e95069eeb5ae"
+                    ]
+                ],
+                "manufacturer": "Unavailable",
+                "model": "Virtual Switch",
+                "name": "\uc138\ud0c1\uae30 \uac00\uc0c1\uc2a4\uc704\uce58",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "3a12a7bc19b84aeabd7f0756e53fafc7"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "dc3874c2728c49838b03d6ecc9c251fc",
+                "identifiers": [
+                    [
+                        "smartthings",
+                        "3192148e-ae00-4c78-96ec-971e9f49b680"
+                    ]
+                ],
+                "manufacturer": "Unavailable",
+                "model": "HA Switch",
+                "name": "\uc548\ubc29\ubd88",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "3a12a7bc19b84aeabd7f0756e53fafc7"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "e0f794cebd6a49d588606f524f8564a2",
+                "identifiers": [
+                    [
+                        "smartthings",
+                        "7bb09a2a-80c3-4bc6-8422-814d4dcfeadf"
+                    ]
+                ],
+                "manufacturer": "Unavailable",
+                "model": "Tasmota Generic Switch",
+                "name": "Dress room",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "3a12a7bc19b84aeabd7f0756e53fafc7"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "5d74e850a695443a9f181712fad6f53e",
+                "identifiers": [
+                    [
+                        "smartthings",
+                        "a42ea733-f5c6-4c39-b633-407bbaa7b2fb"
+                    ]
+                ],
+                "manufacturer": "Unavailable",
+                "model": "Xiaomi Motion",
+                "name": "Xiaomi Motion",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "3a12a7bc19b84aeabd7f0756e53fafc7"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "999fa2b9cc17495785db5e56ce6f3c7c",
+                "identifiers": [
+                    [
+                        "smartthings",
+                        "48df0844-3d2e-48ac-8232-8b5f160ce9a7"
+                    ]
+                ],
+                "manufacturer": "Unavailable",
+                "model": "Xiaomi Door",
+                "name": "Xiaomi Door1",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "3a12a7bc19b84aeabd7f0756e53fafc7"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "33cfaab2a55f46678c4a7cab5e878c0a",
+                "identifiers": [
+                    [
+                        "smartthings",
+                        "3022c00d-7cb6-4ec2-8f75-d5a7c0cc9189"
+                    ]
+                ],
+                "manufacturer": "Unavailable",
+                "model": "Xiaomi Motion",
+                "name": "Xiaomi Motion",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "3a12a7bc19b84aeabd7f0756e53fafc7"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "484bd037902a4fac8636464603a617bf",
+                "identifiers": [
+                    [
+                        "smartthings",
+                        "591bbe26-a623-4349-b9ff-df9a4bd478d4"
+                    ]
+                ],
+                "manufacturer": "Unavailable",
+                "model": "Xiaomi Door",
+                "name": "\ub4dc\ub808\uc2a4\ub8f8\uc13c\uc11c",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "3a12a7bc19b84aeabd7f0756e53fafc7"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "b12453b31e36453c95fe0028a079e679",
+                "identifiers": [
+                    [
+                        "smartthings",
+                        "f8165a80-0010-489f-b74a-e94c571f9843"
+                    ]
+                ],
+                "manufacturer": "Unavailable",
+                "model": "Xiaomi Door",
+                "name": "Xiaomi Door2",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "3a12a7bc19b84aeabd7f0756e53fafc7"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "bd446ffa82bc44c9ac45ab0d9b83bdc1",
+                "identifiers": [
+                    [
+                        "smartthings",
+                        "79ff0cf4-30e3-27c0-8f07-d450ab6d0b85"
+                    ]
+                ],
+                "manufacturer": "Unavailable",
+                "model": null,
+                "name": "Galaxy Home Mini (C25E)",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "3a12a7bc19b84aeabd7f0756e53fafc7"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "433aaf20df654022bf653fef76a3e5cd",
+                "identifiers": [
+                    [
+                        "smartthings",
+                        "0ca1400f-bcf6-4859-ab26-fb6b836acac5"
+                    ]
+                ],
+                "manufacturer": "Unavailable",
+                "model": "Ikea Button",
+                "name": "IKEA Remote Control",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "3a12a7bc19b84aeabd7f0756e53fafc7"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "a8598e0ddc34489f8625f311bc81c333",
+                "identifiers": [
+                    [
+                        "smartthings",
+                        "174f9fa2-5638-4043-96b9-1c9d55480f5e"
+                    ]
+                ],
+                "manufacturer": "Unavailable",
+                "model": "HA Heater",
+                "name": "\uac70\uc2e4\ubcf4\uc77c\ub7ec",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "3a12a7bc19b84aeabd7f0756e53fafc7"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "f49e4b620c964889aaa4bccea122c708",
+                "identifiers": [
+                    [
+                        "smartthings",
+                        "2f0dfb68-dbde-4a8e-9b86-0b623b0f57d1"
+                    ]
+                ],
+                "manufacturer": "Unavailable",
+                "model": "HA Heater",
+                "name": "\uc548\ubc29\ubcf4\uc77c\ub7ec",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "3a12a7bc19b84aeabd7f0756e53fafc7"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "44adf61057f54312be59dd02ea2429b1",
+                "identifiers": [
+                    [
+                        "smartthings",
+                        "4d1dae7a-3859-4d63-9275-940c8d791a1b"
+                    ]
+                ],
+                "manufacturer": "Unavailable",
+                "model": "HA Heater",
+                "name": "\uc911\uac04\ubc29\ubcf4\uc77c\ub7ec",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "3a12a7bc19b84aeabd7f0756e53fafc7"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "d0ffa4deb45145d086a5bde2e88b0ffa",
+                "identifiers": [
+                    [
+                        "smartthings",
+                        "a9c31b16-20d6-4ca4-a73f-8b6e29ec8748"
+                    ]
+                ],
+                "manufacturer": "Unavailable",
+                "model": "HA Heater",
+                "name": "\uc791\uc740\ubc29\ubcf4\uc77c\ub7ec",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "3a12a7bc19b84aeabd7f0756e53fafc7"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "6034dc0d945247b1a5dd59141e12fa5a",
+                "identifiers": [
+                    [
+                        "smartthings",
+                        "900500f7-23ad-4c62-a28f-611897786efa"
+                    ]
+                ],
+                "manufacturer": "Unavailable",
+                "model": "HA Switch",
+                "name": "\uac70\uc2e4\ud070\ubd88",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "3a12a7bc19b84aeabd7f0756e53fafc7"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "ab6e8bc527ff4a82bd965094032e38ad",
+                "identifiers": [
+                    [
+                        "smartthings",
+                        "500882d3-b856-488f-aacd-947e851de6dd"
+                    ]
+                ],
+                "manufacturer": "Unavailable",
+                "model": "HA Switch",
+                "name": "\ud604\uad00\ubd88",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "3a12a7bc19b84aeabd7f0756e53fafc7"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "b10c64ba2552400597e78b19cbf0bf02",
+                "identifiers": [
+                    [
+                        "smartthings",
+                        "08478d8f-278b-469f-941e-a9420b2be26a"
+                    ]
+                ],
+                "manufacturer": "Unavailable",
+                "model": "Google Home",
+                "name": "\uc548\ubc29",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "3a12a7bc19b84aeabd7f0756e53fafc7"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "9e0673fe02f24c68a8e0fc1cf9131ffa",
+                "identifiers": [
+                    [
+                        "smartthings",
+                        "85004335-c66a-4b29-a54e-e2fa2ddc883c"
+                    ]
+                ],
+                "manufacturer": "Unavailable",
+                "model": "HA Switch",
+                "name": "\uc548\ubc29\ud070\ubd88",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "3a12a7bc19b84aeabd7f0756e53fafc7"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "50374d384e52497c99bfe7314810aad2",
+                "identifiers": [
+                    [
+                        "smartthings",
+                        "092f298b-d5c4-484b-b533-85fa172cd556"
+                    ]
+                ],
+                "manufacturer": "Unavailable",
+                "model": "Google Home",
+                "name": "\uac70\uc2e4 2",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "3a12a7bc19b84aeabd7f0756e53fafc7"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "f17a66ae162243ef84a2ff12bc87b8b8",
+                "identifiers": [
+                    [
+                        "smartthings",
+                        "64b243f6-b205-4aab-9b3a-f28738342600"
+                    ]
+                ],
+                "manufacturer": "Unavailable",
+                "model": "Google Home",
+                "name": "\uc6a9\uc218\ubc29",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "3a12a7bc19b84aeabd7f0756e53fafc7"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "8b413fc45de04b658d659582e5e92d8b",
+                "identifiers": [
+                    [
+                        "smartthings",
+                        "a21f0a7c-8e4f-4ba0-b226-aeccbc79b30f"
+                    ]
+                ],
+                "manufacturer": "Unavailable",
+                "model": "Google Home",
+                "name": "\uac70\uc2e4",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "3a12a7bc19b84aeabd7f0756e53fafc7"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "d219c02e8ac84ab4895ae9f1d8372a97",
+                "identifiers": [
+                    [
+                        "smartthings",
+                        "a22d6422-7fd1-49b8-95e6-90b08c0e3baf"
+                    ]
+                ],
+                "manufacturer": "Unavailable",
+                "model": "ZigBee Multi Switch",
+                "name": "\uc8fc\ubc29",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "3a12a7bc19b84aeabd7f0756e53fafc7"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "d268525272364053b0e74b20a077b31a",
+                "identifiers": [
+                    [
+                        "smartthings",
+                        "3531c0f2-8774-44a7-b2aa-58264efc17c9"
+                    ]
+                ],
+                "manufacturer": "Unavailable",
+                "model": "Child Switch Health",
+                "name": "Dawon Switch 2",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            }
+        ]
+    },
+    "key": "core.device_registry",
+    "version": 1
+}

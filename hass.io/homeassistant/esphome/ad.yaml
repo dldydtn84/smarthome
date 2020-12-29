@@ -1,0 +1,23 @@
+esphome:
+  name: ad
+  platform: ESP8266
+  board: esp01_1m
+
+wifi:
+  ssid: "ASUS"
+  password: "ritkfygh12"
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "Ad Fallback Hotspot"
+    password: "cAJyeAzLf8nD"
+
+captive_portal:
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+
+ota:

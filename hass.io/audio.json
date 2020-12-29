@@ -1,0 +1,4 @@
+{
+  "version": "17",
+  "image": "homeassistant/amd64-hassio-audio"
+}

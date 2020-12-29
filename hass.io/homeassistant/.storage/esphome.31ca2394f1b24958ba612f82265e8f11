@@ -1,0 +1,26 @@
+{
+    "data": {
+        "device_info": {
+            "compilation_time": "May 15 2020, 23:04:41",
+            "esphome_version": "1.14.3",
+            "has_deep_sleep": false,
+            "mac_address": "84:F3:EB:48:AD:15",
+            "model": "PLATFORMIO_ESP01_1M",
+            "name": "doorlock",
+            "uses_password": false
+        },
+        "services": [],
+        "switch": [
+            {
+                "assumed_state": false,
+                "icon": "",
+                "key": 2536181312,
+                "name": "Doorlock",
+                "object_id": "doorlock",
+                "unique_id": "doorlockswitchdoorlock"
+            }
+        ]
+    },
+    "key": "esphome.31ca2394f1b24958ba612f82265e8f11",
+    "version": 1
+}

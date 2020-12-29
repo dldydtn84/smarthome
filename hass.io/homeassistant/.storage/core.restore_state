@@ -1,0 +1,216 @@
+{
+    "data": [
+        {
+            "last_seen": "2020-12-29T14:25:16.002219+00:00",
+            "state": {
+                "attributes": {
+                    "editable": true,
+                    "friendly_name": "qjsro3975",
+                    "gps_accuracy": 77,
+                    "id": "qjsro3975",
+                    "latitude": 37.2357055,
+                    "longitude": 126.9559236,
+                    "source": "device_tracker.sm_g973n",
+                    "user_id": "a3257ab1edbc427186cdc26bb99503e4"
+                },
+                "context": {
+                    "id": "ea21cd513cbc4df8b135379fbd9907e1",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "person.qjsro3975",
+                "last_changed": "2020-12-24T14:33:18.552280+00:00",
+                "last_updated": "2020-12-24T14:33:30.290012+00:00",
+                "state": "home"
+            }
+        },
+        {
+            "last_seen": "2020-12-29T14:25:16.002219+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "\uc0c8\ub85c\uc6b4 \uc790\ub3d9\ud654",
+                    "id": "1591710453295",
+                    "last_triggered": "2020-07-06T12:50:09.485984+00:00"
+                },
+                "context": {
+                    "id": "dd2ba460043241bbb18af1d9ad7f8a5d",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.saeroun_jadonghwa",
+                "last_changed": "2020-12-24T14:33:23.163235+00:00",
+                "last_updated": "2020-12-24T14:33:23.163235+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2020-12-29T14:25:16.002219+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "\uac70\uc2e4\ud070\ubd88",
+                    "supported_features": 0
+                },
+                "context": {
+                    "id": "183c0f2186314f89a35c788f1dcea3ba",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "light.geosilkeunbul",
+                "last_changed": "2020-12-24T14:33:24.420381+00:00",
+                "last_updated": "2020-12-24T14:33:24.420381+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2020-12-29T14:25:16.002219+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "\uac70\uc2e4\ubd88",
+                    "supported_features": 0
+                },
+                "context": {
+                    "id": "d3876c55d0354423846fca6e7145b3f8",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "light.geosilbul",
+                "last_changed": "2020-12-24T14:33:24.429718+00:00",
+                "last_updated": "2020-12-24T14:33:24.429718+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2020-12-29T14:25:16.002219+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "\ud604\uad00\ubd88",
+                    "supported_features": 0
+                },
+                "context": {
+                    "id": "72e5faaca9594e0198d4edc7d5dd1219",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "light.hyeongwanbul",
+                "last_changed": "2020-12-24T14:33:24.450218+00:00",
+                "last_updated": "2020-12-24T14:33:24.450218+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2020-12-29T14:25:16.002219+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "\uc548\ubc29\ud070\ubd88",
+                    "supported_features": 0
+                },
+                "context": {
+                    "id": "9f3f9d07f86547239d1b7cad14ed28bc",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "light.anbangkeunbul",
+                "last_changed": "2020-12-24T14:33:24.474146+00:00",
+                "last_updated": "2020-12-24T14:33:24.474146+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2020-12-29T14:25:16.002219+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "\uc548\ubc29\ubd88",
+                    "supported_features": 0
+                },
+                "context": {
+                    "id": "f04b41a58caa43dca307fa56157816ad",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "light.anbangbul",
+                "last_changed": "2020-12-24T14:33:24.498647+00:00",
+                "last_updated": "2020-12-24T14:33:24.498647+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2020-12-29T14:25:16.002219+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "\uc77c\uad04\uc18c\ub4f1"
+                },
+                "context": {
+                    "id": "6f3dc3906db144ea9adca7d907178586",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "switch.ilgwalsodeung",
+                "last_changed": "2020-12-24T14:33:24.201197+00:00",
+                "last_updated": "2020-12-24T14:33:24.201197+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2020-12-29T14:25:16.002219+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "\uac00\uc2a4"
+                },
+                "context": {
+                    "id": "dcfcee9ccafd487b9b69f3feacedaebe",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "switch.gaseu",
+                "last_changed": "2020-12-24T14:33:23.423843+00:00",
+                "last_updated": "2020-12-24T14:33:23.423843+00:00",
+                "state": "unavailable"
+            }
+        },
+        {
+            "last_seen": "2020-12-29T14:25:16.002219+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "\uc5d8\ub808\ubca0\uc774\ud130"
+                },
+                "context": {
+                    "id": "d391941b3a0b4ec0adacae88f8e7f9e5",
+                    "parent_id": null,
+                    "user_id": "a3257ab1edbc427186cdc26bb99503e4"
+                },
+                "entity_id": "switch.elrebeiteo",
+                "last_changed": "2020-12-24T14:44:05.857018+00:00",
+                "last_updated": "2020-12-24T14:44:05.857018+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2020-12-29T14:25:16.002219+00:00",
+            "state": {
+                "attributes": {
+                    "altitude": 50.0,
+                    "battery_level": 100,
+                    "course": 255,
+                    "friendly_name": "SM-G973N",
+                    "gps_accuracy": 77,
+                    "latitude": 37.2357055,
+                    "longitude": 126.9559236,
+                    "source_type": "gps",
+                    "speed": 5,
+                    "vertical_accuracy": 2
+                },
+                "context": {
+                    "id": "3378c9e6468841d98dbe7513b598d9bd",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.sm_g973n",
+                "last_changed": "2020-12-24T14:33:23.999550+00:00",
+                "last_updated": "2020-12-24T14:33:23.999550+00:00",
+                "state": "home"
+            }
+        }
+    ],
+    "key": "core.restore_state",
+    "version": 1
+}

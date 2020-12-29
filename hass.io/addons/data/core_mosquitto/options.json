@@ -1,0 +1,16 @@
+{
+  "logins": [
+    {
+      "username": "yongsoo",
+      "password": "ritkfygh12"
+    }
+  ],
+  "anonymous": false,
+  "customize": {
+    "active": false,
+    "folder": "mosquitto"
+  },
+  "certfile": "fullchain.pem",
+  "keyfile": "privkey.pem",
+  "require_certificate": false
+}

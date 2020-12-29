@@ -1,0 +1,64 @@
+  - platform: mqtt
+    name: "거실보일러"
+    mode_state_topic: "homenet/Thermo1/power/state"
+    mode_command_topic: "homenet/Thermo1/power/command"
+    temperature_state_topic: "homenet/Thermo1/setTemp/state"
+    temperature_command_topic: "homenet/Thermo1/setTemp/command"
+    current_temperature_topic: "homenet/Thermo1/curTemp/state"
+    modes:
+      - "off"
+      - "heat" 
+    min_temp: 15
+    max_temp: 28
+    
+  - platform: mqtt
+    name: "안방보일러"
+    mode_state_topic: "homenet/Thermo2/power/state"
+    mode_command_topic: "homenet/Thermo2/power/command"
+    temperature_state_topic: "homenet/Thermo2/setTemp/state"
+    temperature_command_topic: "homenet/Thermo2/setTemp/command"
+    current_temperature_topic: "homenet/Thermo2/curTemp/state"
+    modes:
+      - "off"
+      - "heat" 
+    min_temp: 15
+    max_temp: 28
+    
+  - platform: mqtt
+    name: "작은방보일러"
+    mode_state_topic: "homenet/Thermo3/power/state"
+    mode_command_topic: "homenet/Thermo3/power/command"
+    temperature_state_topic: "homenet/Thermo3/setTemp/state"
+    temperature_command_topic: "homenet/Thermo3/setTemp/command"
+    current_temperature_topic: "homenet/Thermo3/curTemp/state"
+    modes:
+      - "off"
+      - "heat" 
+    min_temp: 15
+    max_temp: 28
+    
+  - platform: mqtt
+    name: "중간방보일러"
+    mode_state_topic: "homenet/Thermo4/power/state"
+    mode_command_topic: "homenet/Thermo4/power/command"
+    temperature_state_topic: "homenet/Thermo4/setTemp/state"
+    temperature_command_topic: "homenet/Thermo4/setTemp/command"
+    current_temperature_topic: "homenet/Thermo4/curTemp/state"
+    modes:
+      - "off"
+      - "heat" 
+    min_temp: 15
+    max_temp: 28
+    
+  - platform: mqtt
+    name: "용수방보일러"
+    mode_state_topic: "homenet/Thermo5/power/state"
+    mode_command_topic: "homenet/Thermo5/power/command"
+    temperature_state_topic: "homenet/Thermo5/setTemp/state"
+    temperature_command_topic: "homenet/Thermo5/setTemp/command"
+    current_temperature_topic: "homenet/Thermo5/curTemp/state"
+    modes:
+      - "off"
+      - "heat" 
+    min_temp: 15
+    max_temp: 28

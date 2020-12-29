@@ -1,0 +1,4 @@
+{
+  "version": "3",
+  "image": "homeassistant/amd64-hassio-multicast"
+}

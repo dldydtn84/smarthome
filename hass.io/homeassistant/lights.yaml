@@ -1,0 +1,24 @@
+- platform: mqtt
+  name: "거실큰불"
+  state_topic: "homenet/Light1/power/state"
+  command_topic: "homenet/Light1/power/command"
+  
+- platform: mqtt
+  name: "거실불"
+  state_topic: "homenet/Light2/power/state"
+  command_topic: "homenet/Light2/power/command"
+  
+- platform: mqtt
+  name: "현관불"
+  state_topic: "homenet/Light3/power/state"
+  command_topic: "homenet/Light3/power/command"
+  
+- platform: mqtt
+  name: "안방큰불"
+  state_topic: "homenet/Light4/power/state"
+  command_topic: "homenet/Light4/power/command"
+  
+- platform: mqtt
+  name: "안방불"
+  state_topic: "homenet/Light5/power/state"
+  command_topic: "homenet/Light5/power/command"
